@@ -1,0 +1,62 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #61c7b5;
+  --secondary-color: #3868b0;
+  --primaryBg-color: #c21010;
+  --white-color: #ffffff;
+  --background-color: #fcfdff;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-cell {
+  color: var(--white-color) !important;
+  background-color: #e75353d0 !important;
+}
+
+.ant-table-tbody > tr > td {
+  background-color: var(--white-color) !important;
+  border: 1px solid var(--primaryBg-color) !important;
+  color: #1b1b1b !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+  background-color: var(--secondary-color) !important;
+}
+
+:where(.css-dev-only-do-not-override-1hytims).ant-table-wrapper
+  .ant-table-ping-right
+  .ant-table-cell-fix-right-first::after,
+:where(.css-dev-only-do-not-override-1hytims).ant-table-wrapper
+  .ant-table-ping-right
+  .ant-table-cell-fix-right-last::after {
+  box-shadow: none !important;
+}
+
+:where(
+    .css-dev-only-do-not-override-1o4rtvl
+  ).ant-menu-light.ant-menu-root.ant-menu-inline,
+:where(.css-dev-only-do-not-override-1o4rtvl).ant-menu-light
+  > .ant-menu.ant-menu-root.ant-menu-inline,
+:where(
+    .css-dev-only-do-not-override-1o4rtvl
+  ).ant-menu-light.ant-menu-root.ant-menu-vertical,
+:where(.css-dev-only-do-not-override-1o4rtvl).ant-menu-light
+  > .ant-menu.ant-menu-root.ant-menu-vertical {
+  border-inline-end: none;
+}

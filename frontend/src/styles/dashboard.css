@@ -1,0 +1,61 @@
+.AppRoute__drawer .ant-drawer-content,
+.AppRoute__drawer .ant-drawer-header {
+  background: var(--background-color);
+}
+
+.AppRoute__drawer .ant-drawer-content-wrapper {
+  width: 100% !important;
+  max-width: 244px;
+}
+
+.AppRoute__drawer .ant-drawer-close {
+  color: #fff;
+  right: -8px;
+  top: 8px;
+  position: absolute;
+}
+
+.AppRoute__drawer .ant-drawer-body {
+  padding: 0;
+}
+
+.AppRoute__sider {
+  overflow: auto;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+  scrollbar-width: none;
+}
+
+.AppRoute__sider::-webkit-scrollbar {
+  display: none;
+}
+
+.AppRoute__layout-content {
+  min-height: 100vh;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.AppRoute__header {
+  padding: 0 8px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 8px rgba(168, 216, 243, 0.5);
+  z-index: 10;
+}
+
+.AppRoute__content {
+  padding: 24px 16px 0;
+  overflow: initial;
+  margin-bottom: 24px;
+  position: relative;
+  background: var(--background-color);
+}
+
+.AppRoute__header {
+  background-color: #fff;
+}
